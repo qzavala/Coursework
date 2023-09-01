@@ -1,0 +1,94 @@
+*{
+    padding: 10px;
+    margin: 0;
+}
+.first-box{
+    background-color:darkgrey
+}
+.second-box{
+    background-color: beige;
+    border: 50px;   
+}
+h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 400px;
+    padding-right: 30px;
+    border: 1px solid black;
+}
+h2{
+   
+    background-color: aqua;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 0px;
+    display: flex;   
+}
+ul{
+   
+    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 80px; 
+}
+
+h3{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 0px;   
+}
+ol{
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+.pegasus{
+    background-color: azure;
+    width: 175px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+.bob{
+    background-color:green;
+    width: 175px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+.broski{
+    background-color: gold;
+    
+    width: 175px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+}
+.leo{
+    background-color: purple;
+    width:175px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px; 
+}
+img{
+    padding-left:150px;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    object-position:left bottom;  
+}
+h4{
+    padding-left: 40px;
+}
+
+
+
