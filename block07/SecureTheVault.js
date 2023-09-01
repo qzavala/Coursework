@@ -14,5 +14,5 @@ function displayAlert(){
 
 displayAlert()
 
-console.log("hello world!")
+
 
