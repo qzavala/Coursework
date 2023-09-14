@@ -1,0 +1,7 @@
+.first-box{
+    display: flex;
+    height: 100px;
+    background-color: aqua;
+   
+}
+.first-box > div 
