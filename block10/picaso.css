@@ -6,13 +6,12 @@
 .first-box {
   display: flex;
   height: 130px;
-  opacity: .4;
+  opacity: 0.4;
 }
 .first-box > div {
   background-color: rgb(67, 140, 134);
   flex: 1;
   margin-bottom: 1pt;
-  
 }
 .first-box > div:nth-child(2) {
   margin-right: 10pt;
@@ -22,18 +21,17 @@
   display: flex;
   height: 300px;
   background-color: rgb(67, 140, 134);
-opacity: .4;
+  opacity: 0.4;
   margin-bottom: 22.5pt;
 }
 img {
-  position:absolute;
+  position: absolute;
   z-index: -1;
-  
+
   width: 600px;
- 
+
   object-fit: contain;
   padding: 15px 20px 0px 350px;
- 
 }
 
 body {
@@ -42,7 +40,6 @@ body {
   background-color: beige;
   margin-top: 1.2cm;
 }
-
 
 @media (max-width: 768px) {
   .first-box {
