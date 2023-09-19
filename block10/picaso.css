@@ -6,51 +6,43 @@
 .first-box {
   display: flex;
   height: 130px;
+  opacity: .4;
 }
 .first-box > div {
   background-color: rgb(67, 140, 134);
   flex: 1;
   margin-bottom: 1pt;
+  
 }
 .first-box > div:nth-child(2) {
   margin-right: 10pt;
   margin-left: 10pt;
 }
 .second-box {
-  display: grid;
+  display: flex;
   height: 300px;
   background-color: rgb(67, 140, 134);
-
+opacity: .4;
   margin-bottom: 22.5pt;
 }
 img {
-  position: absolute;
-  z-index: 1;
+  position:absolute;
+  z-index: -1;
   
-  width: 300px;
-  padding-top: 260px;
+  width: 600px;
+ 
   object-fit: contain;
-  bottom: 335px;
+  padding: 15px 20px 0px 350px;
+ 
 }
 
 body {
   margin-right: 1.2cm;
   margin-left: 1.2cm;
+  background-color: beige;
+  margin-top: 1.2cm;
 }
-.up-arrow {
-  width: 0;
-  height: 0;
-  border-left: 75px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 75px;
-  border-bottom: 125px solid green;
-  position: relative;
-  z-index: 1;
 
-  margin: 2rem;
-  top: -160px;
-  right: -600px;
-}
 
 @media (max-width: 768px) {
   .first-box {
