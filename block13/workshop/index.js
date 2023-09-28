@@ -25,26 +25,18 @@ function convertToCelsius(fahren) {
  * @param {number} celc
  */
 function createMessage(fahren, celc) {
-  if (celc < 32) {
-    console.log("very cold");
-  } else if (32 < celc < 64 ){
-    console.log("cold");
-  } else if (64 < celc < 86){
-    console.log("warm")
-  } else {
-    console.log("hot")
-  }
+let feel = ""
 
   if (fahren < 32) {
-    console.log("very cold");
-  } else if (32 < fahren < 64 ){
-    console.log("cold");
-  } else if (64 < fahren < 86){
-    console.log("warm")
-  } else {
-    console.log("hot")
+    feel = "very cold";
+  } else if (32 <= fahren && fahren < 64 ){
+    feel = "cold";
+  } else if (64 <=fahren && fahren < 86){
+    feel = "warm"
+  } else { 
+    feel = "hot"
   }
-
+  return `${fahren} or ${celc} is ${feel}`
 }
 
 /**
